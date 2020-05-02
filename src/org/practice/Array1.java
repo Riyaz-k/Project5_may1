@@ -11,15 +11,10 @@ public class Array1 {
 		num[2] = 50;
 		num[4] = 40;
 		
-		System.out.println("print array");
-		//int i;
-//		for(i=0; i<num.length; i++) {
-//		System.out.println(num[i]);
-//		}
-//		
-		
-		for(int i:num) {
-			System.out.println(i);
+		System.out.println("print array using normal for loop");
+		int i;
+		for(i=0; i<num.length; i++) {
+		System.out.println(num[i]);
 		}
 	}
 }
